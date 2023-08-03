@@ -6,13 +6,13 @@ Populate your desktop wallpaper with your to-do list in Notion automatically usi
 
 - Create a `.env` file and define `NOTION_KEY` and `NOTION_DATABASE_ID` variables, according to the [Notion Integration Guide](https://developers.notion.com/docs/create-a-notion-integration).
 - Install necessary node modules with `npm install`.
-- Add a `template.jpg` inside the `assets` folder to use as a template wallpaper.
+- Add a `template.jpg` inside the `assets` folder to replace my template wallpaper.
 
 ## Usage
 
 Inside the `scripts` folder.
 
 - Run the `update.sh` shell script.
-- Run the `update.ps` powershell script.
+- Run the `update.ps1` powershell script.
 
 You can also automate the last two steps using your local task scheduler (like `taskschd.msc`).

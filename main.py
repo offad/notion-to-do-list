@@ -29,7 +29,8 @@ def main(data):
             yPos -= height
             yPos += SPACING
 
-        xPos = width - (LIST_WIDTH * (q + 1))
+        # Move 300 pixels away from the edge
+        xPos = width - (LIST_WIDTH * (q + 1)) - 300
         return (xPos, yPos)
 
     def create(key, tasks, index):
@@ -55,7 +56,7 @@ def main(data):
         index = create(key, tasks, index + 1)
 
     # Display edited image on which we have added the text
-    image.show()
+    #image.show()
 
     # Step 3. Update Sticky Notes Wallpaper
     image.save("wallpaper.jpg")

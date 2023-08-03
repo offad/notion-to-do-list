@@ -7,13 +7,6 @@ async function update() {
     return result
 }
 
-function objToString (obj) {
-    let str = '';
-    for (const [p, val] of Object.entries(obj)) {
-        str += `${p}::${val}\n`;
-    }
-    return str;
-}
 let result = await update()
 console.clear();
 let output = JSON.stringify(result);

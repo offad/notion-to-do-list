@@ -6,9 +6,9 @@ export async function getTodoTasks() {
   
     // Dictionary for storing to-do information
     const data = {
+        "Education": [],
         "Personal": [],
         "Occupation": [],
-        "Others": []
     };
 
     // Query the database

@@ -7,7 +7,7 @@
 #-------------------------------------------------------------------#
 
 #Modify Path to the picture accordingly to reflect your infrastructure
-$imgPath=(Resolve-Path ($PSScriptRoot + "\wallpaper.jpg"))
+$imgPath=(Resolve-Path ($PSScriptRoot + "\..\wallpaper.jpg"))
 $code = @' 
 using System.Runtime.InteropServices; 
 namespace Win32{ 
